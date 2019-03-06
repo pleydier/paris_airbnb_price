@@ -1,4 +1,21 @@
 How much should I rent my flat per night?
 
-I use linear regression for predicting the night price of an appartment on Airbnb.
+We use various Machine Learning models for predicting the night price of an appartment on Airbnb.
 The dataset is available at http://insideairbnb.com/get-the-data.html under a Creative Commons CC0 1.0 Universal (CC0 1.0) "Public Domain Dedication" license.
+
+# Conclusion
+
+After selecting relevent data and preprocessing it, we used it to train four models:
+- Linear Regression
+- Polynomial Regression
+- Random Forest Regression
+- Deep Neural Network Regression
+
+We compared these models between one another and with a simple rule of thumb (predicting the price of an Airbnb flat by using the mean price in Paris).
+We obtained the following results:
+
+| Rule of thumb | Linear Regression | Polynomial Regression | Random Forest Regression | Deep Neural Network Regression |
+|---------------|-------------------|-----------------------|--------------------------|--------------------------------|
+|      77       |        60         |          54           |           51             |              49                |
+
+The Deep Neural Network Regression currently offers the best results, but the Random Forest Regression, with a training error of only 20, might be the machine learning model with the best room for improvement.
