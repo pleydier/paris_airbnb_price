@@ -12,7 +12,7 @@ After selecting relevent data and preprocessing it, we used it to train four mod
 - Deep Neural Network Regression
 
 We compared these models between one another and with a simple rule of thumb (predicting the price of an Airbnb flat by using the mean price in Paris).
-We obtained the following results:
+We obtained the following results (Mean Absolute Error):
 
 | Rule of thumb | Linear Regression | Polynomial Regression | Random Forest Regression | Deep Neural Network Regression |
 |---------------|-------------------|-----------------------|--------------------------|--------------------------------|
